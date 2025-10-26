@@ -92,7 +92,7 @@ const compareCounts = async (connectConfigLeft, connectConfigRight) => {
   }
 
   getResultHTML(
-    "Result of compare database",
+    "Comparison result of the database",
     connectConfigLeft.database,
     connectConfigRight.database,
     getTableResultHTML("Diff - number of rows", res)
@@ -259,7 +259,7 @@ const allDiffs = async (connectConfigLeft, connectConfigRight, options) => {
   }
 
   getResultHTML(
-    "Result of compare database",
+    "Comparison result of the database",
     connectConfigLeft.database,
     connectConfigRight.database,
     results.join("")
