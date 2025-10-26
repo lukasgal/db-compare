@@ -1,0 +1,37 @@
+{
+  "name": "db-compare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "compare-db": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.1",
+    "@babel/preset-env": "^7.24.4",
+    "chalk": "^5.3.0",
+    "cli-gui": "^2.5.9",
+    "cli-table3": "^0.6.4",
+    "commander": "^12.0.0",
+    "conf": "^12.0.0",
+    "deep-object-diff": "^1.1.9",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.20",
+    "inquirer-checkbox-search": "^1.0.1",
+    "inquirer-prompt-suggest": "^0.1.0",
+    "inquirer-search-checkbox": "^1.0.0",
+    "inquirer-search-list": "^1.2.6",
+    "jsdom": "^24.0.0",
+    "moment": "^2.30.1",
+    "mssql": "^10.0.2",
+    "open": "^10.1.0",
+    "ora": "^8.0.1"
+  }
+}
