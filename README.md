@@ -2,7 +2,7 @@
 
 Compare two Microsoft SQL Server databases and generate a compact HTML report of differences.
 
-What it does
+## What it does
 
 - Connects to two SQL Server databases and compares selected data.
 - Comparison modes:
@@ -14,7 +14,7 @@ What it does
   - Include only tables with given prefix(es).
 - Produces an HTML report and opens it automatically in your browser.
 
-Screenshots
+## Screenshots
 
 ![App – interactive prompts](doc/app-screenshot.png)
 
@@ -24,16 +24,16 @@ Screenshots
 
 ![Result – number of rows](doc/results-number_of_rows.png)
 
-Requirements
+## Requirements
 
 - Node.js 18+ recommended
 - Access to Microsoft SQL Server (host/user/password)
 
-Install
+## Install
 
 - Install dependencies: `npm install`
 
-Run (interactive)
+## Run (interactive)
 
 - From project root: `node index.js`
 - Follow prompts:
@@ -44,15 +44,15 @@ Run (interactive)
     - Excluded tables: comma-separated list (e.g. `Logs,AuditTrail`)
     - Filter by prefix: comma-separated prefixes (e.g. `tmp_,bak_`)
 
-CLI (optional)
+## CLI (optional)
 
 - Link globally: `npm link`, then run `compare-db` from anywhere.
 
-Output
+## Output
 
 - An HTML file named like `compare-db_result-<timestamp>.html` is generated in your user data folder and opened automatically.
 
-Roadmap / TODO
+## Roadmap / TODO
 
 - Support additional databases via adapters:
   - PostgreSQL (pg)
